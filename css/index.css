@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+.home-indruction
+{
+    overflow: hidden;
+    width: 100%;
+    height:90%;
+    position: relative;
+}
+.home-indruction:after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 5;
+    background-image:linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+}
+.navbar
+{
+    position: relative;
+   z-index: 555555555;
+   background-color: black;
+}
+.navbar-toggler
+{
+    font-size: 1rem;
+}
+.navbar-brand
+{
+     font-size: 1rem;
+}
+
+.video-home
+{
+    transform: translateX(50%) translateY(50%);
+    bottom: 50%;
+    height:auto;
+    position: absolute;
+    right:50%;
+    width:auto;
+    z-index: -1;
+   
+}
+
+.container1
+{
+    background: none;
+    position: absolute;
+    top:35%;
+    left:25%;
+    right: 25%;
+    color: white;
+    z-index:6;
+    
+}
+.member
+{
+    background-color: white;
+    
+}
+.member i
+{
+    font-size: 5rem;
+    padding-bottom: 30px;
+    color: #ce1b28;
+}
+.fixed
+{
+    height: 50%;
+    background-attachment: fixed;
+    text-align: center;
+     background-size: 100% 100%;
+    background-image: url(../images/cta01.jpg);
+   
+}
+.boxes
+{
+    text-align: center;
+    padding: 50px;
+}
+.card-text
+{
+    position: relative;
+}
+.card-text:after
+{
+    content: "";
+    width: 7px;
+    height: 120px;
+    top: 40px;
+    left: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.25);
+   
+}
+
+.box-body img
+{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+   
+
+}
+.box-body p
+{
+    width: 80%;
+    float: left;
+   
+    font-size: 13px;
+    
+}
+.footer
+{
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 100px 0px;
+}
+.footer-p
+{
+    font-size: 15px;
+}
+.footer-ul1
+{
+    list-style: none;
+    overflow: auto;
+}
+.footer-ul1 li
+{
+    padding: 5px 0px;
+}
+.footer-ul1 li a 
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.footer-ul2
+{
+    list-style: none;
+    overflow: auto;
+}
+.footer-ul2 li a 
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.footer-ul2 li i
+{
+    font-size: 20px;
+    color: white;
+    
+}
